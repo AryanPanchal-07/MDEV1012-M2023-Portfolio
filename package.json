@@ -11,8 +11,7 @@
   },
   "engines": {
     "node": "20.2.0",
-    "npm": "9.7.1",
-    "yarn": "1.22.19"
+    "npm": "9.7.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
