@@ -25,7 +25,7 @@ export function DisplayProjectPage(req: express.Request ,res: express.Response ,
 }
 
 //controller function to display Contact page
-export function DisplayContactPage(req: express.Request ,res: express.Response , next: express.NextFunction): void
+export function DisplayContactusPage(req: express.Request ,res: express.Response , next: express.NextFunction): void
 {
-    res.render('index', { title: 'Contact', page: 'contact' });
+    res.render('index', { title: 'Contactus', page: 'contactus' });
 }
