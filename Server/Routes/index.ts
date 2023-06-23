@@ -15,7 +15,7 @@ router.get('/home', (req, res, next) =>  DisplayHomePage(req, res, next) );
 router.get('/about', (req, res, next) =>  DisplayAboutPage(req, res, next) );
 
 /* GET service page. */
-router.get('/service', (req, res, next) =>  DisplayServicePage(req, res, next) );
+router.get('/Services', (req, res, next) =>  DisplayServicePage(req, res, next) );
 
 /* GET projects page. */
 router.get('/project', (req, res, next) =>  DisplayProjectPage(req, res, next) );
